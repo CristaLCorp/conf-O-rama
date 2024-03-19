@@ -7,6 +7,7 @@
 #  };
   environment.systemPackages = [ 
   				pkgs.neovim
+				pkgs.vimPlugins.nvchad
 				pkgs.zsh
 				pkgs.pavucontrol
 				pkgs.xfce.xfce4-pulseaudio-plugin
