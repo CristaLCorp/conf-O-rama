@@ -21,6 +21,7 @@
 				pkgs.ripgrep
 				pkgs.gcc
 				pkgs.cmake
+				pkgs.steam
 				]; 
   # bluetooth config
   hardware.bluetooth.enable = true;
