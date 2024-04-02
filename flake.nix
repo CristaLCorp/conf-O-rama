@@ -23,8 +23,6 @@
 	# specialArgs = { inherit inputs; };
         modules = [
         ./configuration.nix
-        ./custom.nix
-        ./nvidia.nix
         ];
       };
     };

@@ -14,6 +14,8 @@
 				pkgs.git
 				pkgs.vlc
 				pkgs.python3
+				pkgs.python311Packages.pip
+				pkgs.python311Packages.jupyterlab
 				pkgs.qbittorrent
 				pkgs.gzip
 				pkgs.rustup
