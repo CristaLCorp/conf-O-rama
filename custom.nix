@@ -22,6 +22,7 @@
 				pkgs.gcc
 				pkgs.cmake
 				pkgs.steam
+				pkgs.tmux
 				]; 
   # bluetooth config
   hardware.bluetooth.enable = true;
