@@ -66,6 +66,27 @@
     # EDITOR = "emacs";
   };
 
+  programs.zsh = {
+    
+    enable = true;
+    enableCompletion = true;
+    enableAutosuggestions = true;
+    syntaxHighlighting.enable = true;
+    history.size = 10000;
+
+    shellAliases = {
+      vim = "nvim";
+    };
+
+    oh-my-zsh = {
+      enable = true;
+      plugins = [ "git" "encode64" "catimg" ];
+      theme = "wedisagree";
+    };
+
+  };
+
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }
