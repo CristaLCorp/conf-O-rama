@@ -1,16 +1,27 @@
-{ inputs, config, pkgs, ... }:
+{ config, pkgs, ... }:
+{
+  programs.neovim = {
+    
+    defaultEditor = true;
+    enable = true;
 
-{ 
-  # Custom package list
-  programs = {
-    neovim = {
-      plugins = [
-        ## Treesitter
-        pkgs.vimPlugins.nvim-treesitter
-        pkgs.vimPlugins.nvim-treesitter.withAllGrammars
-        pkgs.vimPlugins.nvim-treesitter-textobjects
-        pkgs.vimPlugins.nvim-lspconfig
-      ];	
-    };
+    extraConfig = ''
+      set number relativenumber
+      au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+    '';
+
+    viAlias = true;
+    vimAlias = true;
+    vimdiffAlias = true;
+
+    plugins = with pkgs.vimPlugins; [
+      nvim-lspconfig
+      nvim-treesitter.withAllGrammars
+      plenary-nvim
+      gruvbox-material
+      mini-nvim
+      mason-nvim
+    ];
   };
-};
+}
+
