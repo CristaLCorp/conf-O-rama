@@ -2,11 +2,10 @@
 
 {
   home.packages = [
-  pkgs.tmux
+    pkgs.tmux
   ];
 
   programs.tmux = {
-
     prefix = "C-a";
     enable = true;
   };
