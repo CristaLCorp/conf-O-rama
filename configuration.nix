@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./custom.nix
       ./nvidia.nix
+      ./zsh.nix
     ];
 
   # Bootloader.

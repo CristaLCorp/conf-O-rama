@@ -20,7 +20,8 @@
 				  pandas
 				  jupyterlab
 				  ]))
-  				pkgs.neovim
+  				#pkgs.neovim
+				pkgs.vim
 				pkgs.vimPlugins.nvchad
 				pkgs.zsh
 				pkgs.zsh-powerlevel10k
