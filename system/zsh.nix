@@ -9,9 +9,6 @@ programs.zsh.enable = true;
 
 # Custom package list
 environment.systemPackages = [
-				#pkgs.neovim
-				pkgs.vim
-				pkgs.vimPlugins.nvchad
 				pkgs.zsh
 				pkgs.zsh-powerlevel10k
 				]; 

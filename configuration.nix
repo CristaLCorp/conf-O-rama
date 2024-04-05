@@ -13,6 +13,7 @@
       ./system/zsh.nix
       ./system/python.nix
       ./system/bluetooth.nix
+      ./vim/vim.nix
     ];
 
   # Bootloader.
