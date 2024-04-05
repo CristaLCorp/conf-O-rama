@@ -1,10 +1,9 @@
-{ inputs, config, pkgs, ... }:
+#{ inputs, config, pkgs, ... }:
+{ pkgs, ... }:
 
 { 
   # Custom package list
   environment.systemPackages = [
-				pkgs.pavucontrol
-				pkgs.xfce.xfce4-pulseaudio-plugin
 				pkgs.git
 				pkgs.vlc
 				pkgs.qbittorrent
@@ -15,6 +14,6 @@
 				pkgs.gcc
 				pkgs.cmake
 				pkgs.steam
-				pkgs.tmux
+				#pkgs.tmux
 				]; 
 }
