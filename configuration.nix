@@ -7,12 +7,12 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
       ./custom.nix
-      ./nvidia.nix
-      ./zsh.nix
-      ./python.nix
-      ./bluetooth.nix
+      ./system/hardware-configuration.nix
+      ./system/nvidia.nix
+      ./system/zsh.nix
+      ./system/python.nix
+      ./system/bluetooth.nix
     ];
 
   # Bootloader.
