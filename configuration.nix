@@ -11,6 +11,8 @@
       ./custom.nix
       ./nvidia.nix
       ./zsh.nix
+      ./python.nix
+      ./bluetooth.nix
     ];
 
   # Bootloader.
