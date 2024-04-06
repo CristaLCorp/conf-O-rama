@@ -5,11 +5,13 @@
     pkgs.tmux
   ];
   
-  home.file."./config/tmux.tmux.conf".source = "./user/tmux/tmux.conf";
+  home.file.".config/tmux/tmux.conf".source = ./user/tmux/tmux.conf;
 
-  programs.tmux = {
+  #programs.tmux = {
     #prefix = "C-a";
-    enable = true;
-  };
+  #  enable = true;
+  #};
+  
+
 }
 
