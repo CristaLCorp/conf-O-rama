@@ -10,10 +10,8 @@
       ./custom.nix
       ./system/hardware-configuration.nix
       ./system/nvidia.nix
-      ./system/zsh.nix
       ./system/python.nix
       ./system/bluetooth.nix
-      ./UI/xfce.nix
     ];
 
   # Bootloader.

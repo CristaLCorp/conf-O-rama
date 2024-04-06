@@ -4,7 +4,7 @@
   imports = [
     ./vim/vim.nix
     ./user/terminal.nix
-    ./user/tmux.nix
+    ./user/tmux/tmux.nix
   ];
 
   home.username = "cristal";
