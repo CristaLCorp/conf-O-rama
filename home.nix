@@ -2,7 +2,8 @@
 
 {
   imports = [
-    ./vim/vim.nix
+    #./vim/vim.nix
+    ./vim/nvchad.nix
     ./user/terminal.nix
     ./user/tmux/tmux.nix
   ];
@@ -22,6 +23,8 @@
 
   home.sessionVariables = {
      EDITOR = "nvim";
+     BROWSER = "firefox";
+     TERMINAL = "kitty";
   };
 
   # Let Home Manager install and manage itself.

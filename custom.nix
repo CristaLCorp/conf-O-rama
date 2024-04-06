@@ -15,5 +15,8 @@
 				pkgs.gcc
 				pkgs.cmake
 				pkgs.steam
+				pkgs.kitty
 				]; 
+  programs.zsh.enable = true;
+  users.defaultUserShell = pkgs.zsh;
 }
