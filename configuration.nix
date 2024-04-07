@@ -11,6 +11,7 @@
       ./system/hardware-configuration.nix
       ./system/nvidia.nix
       ./system/python.nix
+      ./system/ruby.nix
       ./system/bluetooth.nix
     ];
 

@@ -10,7 +10,7 @@
     history.size = 10000;
 
     shellAliases = {
-      #vim = "nvim";
+      vim = "nvim";
     };
 
     oh-my-zsh = {

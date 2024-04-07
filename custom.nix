@@ -16,7 +16,12 @@
 				pkgs.cmake
 				pkgs.steam
 				pkgs.kitty
+        pkgs.unzip
+        pkgs.onedrivegui
 				]; 
+
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
+
+  services.onedrive.enable = true;
 }
