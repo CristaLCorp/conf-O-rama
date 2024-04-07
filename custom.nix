@@ -3,8 +3,8 @@
 { 
   # Custom package list
   environment.systemPackages = [
-				pkgs.pavucontrol
-				pkgs.xfce.xfce4-pulseaudio-plugin
+				#pkgs.pavucontrol
+				#pkgs.xfce.xfce4-pulseaudio-plugin
 				pkgs.git
 				pkgs.vlc
 				pkgs.qbittorrent
@@ -18,10 +18,11 @@
 				pkgs.kitty
         pkgs.unzip
         pkgs.onedrivegui
+        pkgs.nodejs
 				]; 
 
-  programs.zsh.enable = true;
-  users.defaultUserShell = pkgs.zsh;
+  #programs.zsh.enable = true;
+  #users.defaultUserShell = pkgs.zsh;
 
   services.onedrive.enable = true;
 }

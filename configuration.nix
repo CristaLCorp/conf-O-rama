@@ -13,6 +13,7 @@
       ./system/python.nix
       ./system/ruby.nix
       ./system/bluetooth.nix
+      ./system/xcfe.nix
     ];
 
   # Bootloader.
