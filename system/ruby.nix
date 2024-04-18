@@ -3,8 +3,6 @@
 { 
   # Custom package list
   environment.systemPackages = [
-  				(pkgs.ruby.withPackages (ps: with ps; [
-				  jekyll
-				  ]))
+        pkgs.ruby
 				]; 
 }

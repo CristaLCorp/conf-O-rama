@@ -19,6 +19,11 @@
         pkgs.unzip
         pkgs.onedrivegui
         pkgs.nodejs
+        pkgs.ffmpeg
+        pkgs.gimp
+        pkgs.inkscape
+        pkgs.wireshark
+        pkgs.godot_4
 				]; 
 
   #programs.zsh.enable = true;
