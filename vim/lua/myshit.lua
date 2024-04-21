@@ -1,4 +1,4 @@
-require ("myshit")
+require "nvchad.myshit"
 foofoo = 22
 ---@type MappingsTable
 local M = {}

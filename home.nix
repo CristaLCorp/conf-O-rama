@@ -3,7 +3,7 @@
 {
   imports = [
     #./vim/vim.nix
-    nvchad.nix
+    ./nvchad.nix
     ./user/terminal.nix
     ./user/tmux/tmux.nix
   ];
