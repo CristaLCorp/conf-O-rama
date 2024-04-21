@@ -25,6 +25,7 @@
      EDITOR = "nvim";
      BROWSER = "firefox";
      TERMINAL = "kitty";
+     SHELL = "zsh";
   };
 
   # Let Home Manager install and manage itself.
