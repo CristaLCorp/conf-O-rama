@@ -6,10 +6,10 @@ return {
       require "configs.conform"
     end,
   },
-  -- {
-  --   "christoomey/vim-tmux-navigator",
-  --   lazy = true
-  -- },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false
+  },
 
   -- These are some examples, uncomment them if you want to see them work!
   {
