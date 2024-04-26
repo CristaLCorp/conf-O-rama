@@ -1,9 +1,9 @@
-{ config, pkgs, ... }:
+{ config, pkgs, lib, ... }:
 
 {
   imports = [
     #./vim/vim.nix
-    ./nvchad.nix
+    #./nvchad.nix
     ./user/terminal.nix
     ./user/tmux/tmux.nix
   ];
@@ -27,6 +27,18 @@
      TERMINAL = "kitty";
      SHELL = "zsh";
   };
+
+  programs.neovim = {
+  enable = true;
+  extraLuaConfig = ''
+  	${builtins.readFile .neovim/options.lua}
+
+  '';
+
+  #extraConfig = ''
+  #  set number relativenumber
+  #'';
+};
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
