@@ -16,6 +16,9 @@
 				cmake
 				steam
 				kitty
+    			neovim
+                xclip
+                lua-language-server
         		unzip
         		onedrivegui
         		nodejs
