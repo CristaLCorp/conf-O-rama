@@ -10,16 +10,20 @@ return {
     "christoomey/vim-tmux-navigator",
     lazy = false
   },
-
-  -- These are some examples, uncomment them if you want to see them work!
   {
-    "neovim/nvim-lspconfig",
-    config = function()
-      require("nvchad.configs.lspconfig").defaults()
-      require "configs.lspconfig"
-    end,
+    "ThePrimeagen/vim-be-good",
+    lazy = false
   },
 
+  -- These are some examples, uncomment them if you want to see them work!
+  -- {
+  --   "neovim/nvim-lspconfig",
+  --   config = function()
+  --     require("nvchad.configs.lspconfig").defaults()
+  --     require "configs.lspconfig"
+  --   end,
+  -- },
+  --
   -- {
   -- 	"williamboman/mason.nvim",
   -- 	opts = {
