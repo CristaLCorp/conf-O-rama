@@ -2,33 +2,33 @@
 
 { 
   # Custom package list
-  environment.systemPackages = [
-				#pkgs.pavucontrol
-				#pkgs.xfce.xfce4-pulseaudio-plugin
-				pkgs.git
-				pkgs.vlc
-				pkgs.qbittorrent
-				pkgs.gzip
-				pkgs.rustup
-				pkgs.docker
-				pkgs.ripgrep
-				pkgs.gcc
-				pkgs.cmake
-				pkgs.steam
-				pkgs.kitty
-        pkgs.unzip
-        pkgs.onedrivegui
-        pkgs.nodejs
-        pkgs.ffmpeg
-        pkgs.gimp
-        pkgs.inkscape
-        pkgs.wireshark
-        pkgs.godot_4
+  environment.systemPackages = with pkgs; [
+				#pavucontrol
+				#xfce.xfce4-pulseaudio-plugin
+				git
+				vlc
+				qbittorrent
+				gzip
+				rustup
+				docker
+				ripgrep
+				gcc
+				cmake
+				steam
+				kitty
+        		unzip
+        		onedrivegui
+        		nodejs
+        		ffmpeg
+        		gimp
+        		inkscape
+        		wireshark
+        		godot_4
 				]; 
 
   programs.zsh.enable = true;
   users.defaultUserShell = pkgs.zsh;
   environment.shells = with pkgs; [ zsh ];
 
-  services.onedrive.enable = true;
+#  services.onedrive.enable = true;
 }
