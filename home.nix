@@ -3,7 +3,8 @@
 {
   imports = [
     #./vim/vim.nix
-    ./neovim.nix
+    #./neovim.nix
+    ./neovim_man.nix
     ./user/terminal.nix
     ./user/tmux/tmux.nix
   ];
