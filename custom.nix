@@ -19,8 +19,12 @@
     			neovim
                 xclip
                 lua-language-server
+                imagemagick
         		unzip
+                # onedrive
         		onedrivegui
+                gparted
+                reaper
         		nodejs
         		ffmpeg
         		gimp
