@@ -13,6 +13,7 @@
 				docker
 				ripgrep
 				gcc
+                hostapd
 				cmake
 				steam
 				kitty
@@ -26,11 +27,15 @@
                 gparted
                 reaper
         		nodejs
+                brave
+                burpsuite
         		ffmpeg
+                wget
         		gimp
         		inkscape
         		wireshark
         		godot_4
+                libinput
 				]; 
 
   programs.zsh.enable = true;

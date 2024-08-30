@@ -8,6 +8,8 @@
 				  pip
 				  pandas
 				  jupyterlab
+                  matplotlib
+                  seaborn
 				  ]))
 				]; 
 }
