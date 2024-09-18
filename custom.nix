@@ -14,6 +14,9 @@
 				ripgrep
 				gcc
                 hostapd
+                virtualbox
+                genymotion
+                qemu
 				cmake
 				steam
 				kitty
