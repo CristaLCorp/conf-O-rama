@@ -15,13 +15,13 @@
         "~/.config/ml4w/settings/waybar-quicklinks.json",
         "~/.config/waybar/modules.json"
     ],    
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
     "modules-center": [
 //        "custom/appmenu",
 //        "group/quicklinks",
         "hyprland/window"
-    ],
-    "modules-left": [
-        "hyprland/workspaces"
     ],
     "modules-right": [
         "mpd", 
@@ -29,7 +29,7 @@
         "network", 
         "cpu", 
         "memory", 
-        "keyboard-state", 
+//        "keyboard-state", 
         "battery", 
         "clock", 
         "tray",
