@@ -16,15 +16,17 @@
         "~/.config/waybar/modules.json"
     ],    
     "modules-left": [
-        "hyprland/workspaces"
-    ],
-    "modules-center": [
-//        "custom/appmenu",
-//        "group/quicklinks",
+        "hyprland/workspaces",
         "hyprland/window"
     ],
+//    "modules-center": [
+//        "custom/appmenu",
+//        "group/quicklinks",
+        //"hyprland/window"
+  //  ],
     "modules-right": [
         "mpd", 
+        "bluetooth",
         "pulseaudio", 
         "network", 
         "cpu", 
@@ -32,6 +34,7 @@
 //        "keyboard-state", 
         "battery", 
         "clock", 
+        "clock#2", 
         "tray",
         "custom/exit"
     ]

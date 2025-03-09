@@ -74,8 +74,13 @@
     // Clock
     "clock": {
         // "timezone": "America/New_York",
+        "tooltip-format": "{:%H:%M}",
+        "format": "{:%H:%M}"
+    },
+    "clock#2": {
+        // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": "{:%H:%M [%F]}",
+        "format": "{:%F}",
         "format-alt": "{:%Y-%m-%d}"
     },
 
@@ -128,6 +133,7 @@
     
    // Network
     "network": {
+        "family": "inet",
         "format": "{ifname}",
         "format-wifi": "   {signalStrength}% - {ifname} [{ipaddr}]",
         "format-ethernet": "  {ipaddr}",
@@ -137,7 +143,7 @@
         "tooltip-format-ethernet": "  {ifname} ({ipaddr}/{cidr})",
         "tooltip-format-disconnected": "Disconnected",
         "max-length": 50,
-        "on-click": "alacritty -e nmtui"
+        "on-click": "kitty -e nmtui"
     },
 
     // Battery

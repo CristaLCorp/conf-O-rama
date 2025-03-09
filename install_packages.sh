@@ -1,3 +1,4 @@
 #!/bin/sh
 
-sudo pacman -S git hyprland waybar wofi zsh
+sudo pacman -S yay git hyprland waybar wofi zsh swaync
+yay -S hyprshot

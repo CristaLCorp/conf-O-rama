@@ -99,7 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='nvim'
 # fi
-
+export EDITOR=nvim
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
@@ -118,6 +118,8 @@ alias vim=nvim
 #alias vv='NVIM_APPNAME=nvim-custom nvim'
 #alias vim='NVIM_APPNAME=nvim-custom nvim'
 alias ls=lsd
+alias ff='nvim $(fzf --preview="bat --color=always {}")'
+alias gvim="nvim --listen /tmp/godothost"
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
